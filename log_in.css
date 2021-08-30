@@ -1,0 +1,152 @@
+html,body{width: 100%; margin: 0; padding: 0;}
+.wrap{margin: 0 auto; max-width: 1180px; width: 90%;}
+.wrap_else{margin: 0 auto; max-width: 1440px; width: 90%;}
+p, h1, h2, h3, h4, h5, a{-webkit-margin-before: 0; -webkit-margin-after: 0; margin: 0; padding: 0;}
+
+@font-face{font-family: MullerBold; src: url(fonts/MullerBold.ttf), url(fonts/MullerBold.woff) format('woff');}
+@font-face{font-family: MullerLight; src: url(fonts/MullerLight.ttf), url(fonts/MullerLight.woff) format('woff');}
+
+*::selection{background-color: rgba(72,68,74,.6);}
+
+body{
+	font-family: "MullerLight";
+	font-size: 16px;
+	line-height: 1.2;
+    color: #fff;
+    overflow-x: hidden;
+	background-color: #263A48;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 100vh;
+}
+section{
+	padding: 25px 0;
+}
+input{
+	font-family: "MullerLight";
+	font-size: 18px;
+	outline: inherit;
+}
+button{
+	background-color: inherit;
+	color: inherit;
+	border: inherit;
+	font-size: inherit;
+	outline: inherit;
+	cursor: pointer;
+}
+a{font-family: "MullerLight"; text-decoration: none; color: #48444A;}
+h1{
+	font-family: 'MullerBold';
+	font-size: 28px;
+}
+h2{
+	font-size: 20px;
+}
+label{display: block;}
+
+
+.log_in_header{
+	display: flex;
+	align-items: center;
+	margin-bottom: 90px;
+}
+.log_in_header_border_line{
+	width: 1px;
+	height: 50px;
+	background-color: #FEFEFE;
+	margin: 0 25px;
+}
+.log_in_header_duplicate{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.log_in_form{
+	flex-wrap: wrap;
+	display: flex;
+	width: 420px;
+	max-width: 90%;
+}
+.log_in_form>*{
+	width: 100%;
+}
+.log_in_form_row{
+	margin-bottom: 15px;
+}
+.log_in_form_row_spec{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+.log_in_input{
+	width: 100%;
+	background-color: #0E2433;
+	border: none;
+	padding: 7px 20px;
+	padding-right: 50px;
+	font-size: 18px;
+	outline: none;
+	color: #fff;
+}
+.log_in_input::placeholder{
+	color: #B3B3B3;
+	font-size: 18px;
+}
+.log_in_label{
+	margin-bottom: 5px;
+}
+.log_in_form_member_me_label{
+	font-size: 14px;
+	position: relative;
+	padding-left: 30px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+.log_in_form_member_me_label:before{
+	content: "";
+	position: absolute;
+	display: block;
+	left: 0;
+	top: 0;
+	width: 18px;
+	height: 18px;
+	border: 1px solid #CCCCCC;
+	background: transparent;
+}
+.log_in_form_member_me{
+	display: none;
+}
+.log_in_form_member_me:checked+label.log_in_form_member_me_label:before{
+	background: url(img/radio_choose.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.log_in_form_btn{
+	width: 100%;
+	padding: 7px 0;
+	margin: 15px auto;
+	background-color: #3AE05B;
+	color: #0E2433;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.log_in_form_forget_pass{
+	color: #fff;
+	font-size: 14px;
+}
+.log_in_form_link{
+	color: #9D9E9E;
+	font-size: 12px;
+	text-align: center;
+}
+.log_in_form_link_span{
+	margin-left: 30px;
+}
