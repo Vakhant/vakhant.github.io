@@ -215,69 +215,6 @@ section.news{}
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
-.news_block{
-	height: 450px;
-	width: 275px;
-	border: 1px solid #CCCCCC;
-	display: flex;
-	flex-direction: column;
-}
-.news_block{
-	margin-right: 10px;
-	margin-bottom: 25px;
-}
-.news_block:nth-child(4n){
-	margin-right: 0;
-}
-.news_block_info{
-	height: 100%;
-	padding: 15px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-}
-.news_block_info>*:not(:last-child){
-	margin-bottom: 10px;
-}
-.news_block_region{
-	font-family: "MullerBold";
-	font-size: 16px;
-	color: #3AE05B;
-	border-bottom: 1px solid #263A48;
-}
-.news_block_date, .promo_slide_news_date{
-	font-size: 12px;
-	color: #B3B3B3;
-}
-.news_block_name{
-	font-family: "MullerBold";
-	font-size: 20px;
-}
-.news_block_img img{
-	width: 100%;
-}
-.news_block_rate{
-	display: flex;
-	justify-content: center;
-	margin: 10px 0;
-	color: #3AE05B;
-	margin-top: auto;
-	width: 100%;
-	filter: grayscale(1);
-}
-.news_block_watches_rate{
-	padding-right: 30px;
-	margin-right: 50px;
-	background-image: url(img/watches.svg);
-	background-repeat: no-repeat;
-	background-position: right center;
-}
-.news_block_comments_rate{
-	padding-left: 30px;
-	background-image: url(img/comments.svg);
-	background-repeat: no-repeat;
-	background-position: left center;
-}
 .news_list_nav{
 	display: flex;
 	justify-content: space-between;
