@@ -153,6 +153,7 @@
     .slider_nav_offer_news{width: 100%;}
     .news_block_info{
         padding: 15px 5vw;
+        height: auto;
     }
     .news_list_nav_left_block, .slider_nav_offer_news{
         flex-direction: row-reverse;
@@ -161,6 +162,7 @@
         right: inherit;
         left: 0;
     }
+    .copyrights_txt{margin-right: 0;}
 }
 /* 720px 720px 720px*/
 

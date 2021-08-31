@@ -169,6 +169,9 @@
 /* 720px 720px 720px*/
 
 @media(max-width: 600px){
+    .news_block_img{
+        height: inherit;
+    }
     .news_list .news_block{
         margin: 0 auto 15px auto;
         width: 100%;
