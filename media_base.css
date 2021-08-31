@@ -167,6 +167,9 @@
 /* 720px 720px 720px*/
 
 @media(max-width: 600px){
+    .info_nav_block{
+        font-size: 10px;
+    }
     .wrap{
         width: 100%;
     }
