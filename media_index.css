@@ -156,7 +156,7 @@
         border-bottom: 1px solid #3AE05B!important;
     }
     .survey_wrap{margin-right: 0; border: none;}
-    .partners_block, .company_news_block{border-width: 1px 0 1px 0;}
+    .partners_block, .company_news_block, .we_are_informed_block{border-width: 1px 0 1px 0;}
     .company_news .news_list_nav_left_block{display: none;}
     .company_news .news_list_nav .slider_nav_more_news{
         border-bottom: 1px solid #CCCCCC!important;
