@@ -45,11 +45,16 @@
         border: none;
         box-sizing: border-box;
     }
-    
+    .news_list_nav_right_block, .slider_nav_more_news{
+        justify-content: space-between;
+    }
 }
 /* 720px 720px 720px*/
 
 @media(max-width: 600px){
+    .news_detail_slide_news_name{
+        font-size: 24px;
+    }
     .news_block{
         display: block;
         width: 100%;
@@ -124,6 +129,9 @@
         height: 120px;
         background-position: calc(100% - 10px) 10px;
         background-size: 20px;
+    }
+    .news_list_nav_left_block{
+        margin-right: 0;
     }
 }
 /* 600px 600px 600px*/

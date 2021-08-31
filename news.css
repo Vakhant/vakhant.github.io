@@ -139,6 +139,9 @@ section.news_detail{
 	font-family: "MullerBold";
 	font-size: 22px;
 }
+.news_block_name{
+	max-width: 100%;
+}
 .news_detail_aside_news_block_txt{
 	font-size: 16px;
 }
@@ -388,6 +391,9 @@ section.news{}
 	height: 28px;
     filter:	grayscale(1);
 	transition: .2s;
+}
+.add_comment_nav_log_in_list_block img{
+	width: 100%;
 }
 .add_comment_nav_log_in_list_block:hover{
     filter:	grayscale(0);
