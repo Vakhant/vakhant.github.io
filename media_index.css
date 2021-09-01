@@ -182,9 +182,6 @@
         align-items: center;
         flex-direction: row;
     }
-    .user_identtify_nav_block{
-        margin: 0 5px;
-    }
     .news_block_info>*{order: 5;}
     .news_block_info .news_block_date{
         order: 3;
@@ -227,6 +224,9 @@
     }
     .we_are_informed_mobile_hide.we_are_informed_list_hidden_on_mobile .slider_nav_offer_news_ico div:last-child{
         display: initial;
+    }
+    .promo_slide_nav_block{
+        padding: 15px 20px;
     }
 }
 /* 600px 600px 600px*/

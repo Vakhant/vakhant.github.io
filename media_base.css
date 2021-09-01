@@ -184,11 +184,14 @@
         width: 100%;
     }
     .slider_nav_offer_news p, .slider_nav_more_news p{margin: 0;}
+    .user_identtify_nav_block{
+        margin: 0 5px;
+    }
 }
 /* 600px 600px 600px*/
 
 @media(max-width: 480px){
-
+    .search_wrap{width: 220px;}
 }
 /* 480px 480px 480px*/
 
