@@ -26,4 +26,20 @@ $(document).ready(function(){
     $(".news_block").bind('click', function(){
         $(this).toggleClass('news_block_chosen');
     })
+    $(window).bind('load resize', function(){
+        if($(window).width() <= 600){
+            if(!$('.gallerey_list').hasClass('slick-slider')){
+                $('.gallerey_list').slick({});
+            }
+        }else{
+            if($('.gallerey_list').hasClass('slick-slider')){
+                $('.gallerey_list').slick('unslick');
+            }
+        }
+    })
+    $(window).bind('resize', function(){
+        if($(window).width() > 600){
+            $('.gallerey_list').slick('unslick');
+        }
+    })
 })
