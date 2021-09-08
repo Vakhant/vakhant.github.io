@@ -5,6 +5,9 @@
   .news_detail_slider {
     min-width: auto;
   }
+  .gallerey_big_exit{
+    left: calc(95% - 60px);
+  }
 }
 
 @media (max-width: 1280px) {
