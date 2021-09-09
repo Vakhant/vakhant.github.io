@@ -24,7 +24,18 @@ $(document).ready(function () {
         }
     });
 
-    $('.gallerey_big_list').slick({});
+    $('.gallerey_big_list').slick({
+        dots: true,
+        dotsClass: 'custom_paging',
+        fade: true,
+        customPaging: function (slider, i) {
+            //FYI just have a look at the object to find available information
+            //press f12 to access the console in most browsers
+            //you could also debug or look in the source
+            console.log(slider);
+            return  (i + 1) + '/' + slider.slideCount;
+    }
+    });
 
 
     $('.gallerey_list a[data-slide]').click(function (e) {

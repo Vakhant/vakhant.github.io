@@ -5,8 +5,11 @@
   .news_detail_slider {
     min-width: auto;
   }
-  .gallerey_big_exit{
+  .gallerey_big_exit {
     left: calc(95% - 60px);
+  }
+  .custom_paging {
+    left: calc(95% - 10px);
   }
 }
 
